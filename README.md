@@ -1,7 +1,7 @@
 # Getting started
 # Aplicação citymanager 
 O aplicativo **City Manager** possui uma lista de cidades e processa esses dados para extrair várias informações.
-Possui iformações que são baseadas nos dados do arquivo CSV _**Desafio Cidades - Back End.csv**_ e exibe os seguintes resultados:
+Possui informações que são baseadas nos dados do arquivo CSV _**Desafio Cidades - Back End.csv**_ e exibe os seguintes resultados:
 
 # Desafio
 A empresa XPTO Systems precisa construir um sistema web para leitura e manutenção de uma lista de cidades que hoje está em um arquivo CSV.
