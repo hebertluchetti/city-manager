@@ -1,0 +1,58 @@
+# ===============================
+# = APPLICATION SERVER
+# ===============================
+server:
+  # Set the connection PORT to the Application Server communication
+  port: 8080
+  # Servlet context
+  servlet:
+    context-path: /citymanager
+
+spring:
+  messages:
+    encoding:
+      UTF-8
+    basename: i18n/messages
+    use-code-as-default-message: true
+
+  # Disables our batch process from automatically running on application startup
+  batch:
+    job:
+      enabled: false
+
+  # H2 Database properties
+  datasource:
+    type: com.zaxxer.hikari.HikariDataSource
+    url: jdbc:h2:mem:citymanagerdb;MODE=MYSQL;DATABASE_TO_UPPER=false
+    driver-class-name: org.h2.Driver
+    username: sa
+    password: ''
+    hikari:
+      idle-timeout: 10000
+      minIdle: 10
+      maximumPoolSize: 30
+  h2:
+    console:
+      enabled: true
+      path: /h2-console
+
+  jpa:
+    hibernate:
+      ddl-auto: create
+
+  main:
+    banner-mode: 'off'
+
+management:
+  endpoints:
+    enabled-by-default: false
+  endpoint:
+    info:
+      enabled: true
+
+csv:
+  filename: 'Desafio Cidades - Back End.csv'
+
+swagger:
+  config:
+    baseUrl: "br.com.hebert.citymanager.api.controller"
