@@ -37,7 +37,7 @@ Foi definido que a API terá serviços para atender os seguintes requisitos:
 ![](img.png)
 
 
-2. **h2** - H2 Database é uma "In memory light weight", prove uma "Web browser based application console". 
+2. **h2** - H2 Database é uma "In memory light weight", e provê uma "Web browser based application console". 
 
 3. Podemos acessar essa aplicação com a url abaixo: 
    ```
@@ -83,17 +83,17 @@ A documentação dos endpoints pode ser encontrada no link abaixo:
 
 Estão dividas em 3 controllers:
 1. **city-crud-controller** :
-    Nesse controler estão os endpoints de CRUD padrão **_Rest_** que são requisitos do desafio.
+    Nesse controller estão os endpoints de CRUD padrão **_Rest_** que são requisitos do desafio.
 
 ![img_1.png](img_1.png)
-2. 
+
 3. **city-import-controller** : 
-   Nesse controler está o endpoint de importação de aruivo CSV que é requisito do desafio.
+   Nesse controller está o endpoint de importação de aruivo CSV que é requisito do desafio.
 
 ![img_4.png](img_4.png)
 
 4. **city-info-controller** : 
-   Nesse controler estão os endpoints de busca que são requisitos do desafio.
+   Nesse controller estão os endpoints de busca que são requisitos do desafio.
 
 ![img_5.png](img_5.png)
 
