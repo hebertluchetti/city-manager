@@ -34,8 +34,8 @@ Foi definido que a API terá serviços para atender os seguintes requisitos:
 
 ## Dependecias utilizadas: 
 1. **spring-boot-starter-batch** - Permite criar um schedule de jobs e várias outras operações de batch também podem ser utilizadas. Nessa aplicação foi utilizado para a importação do arquico CSV de cidades.
-![](img.png)
 
+![](img.png)
 
 2. **h2** - H2 Database é uma "In memory light weight", e provê uma "Web browser based application console". 
 
@@ -79,6 +79,7 @@ A documentação dos endpoints pode ser encontrada no link abaixo:
     ```
     http://localhost:8080/citymanager/swagger-ui.html#
     ```
+    
 ![img_3.png](img_3.png)
 
 Estão dividas em 3 controllers:
@@ -87,12 +88,12 @@ Estão dividas em 3 controllers:
 
 ![img_1.png](img_1.png)
 
-3. **city-import-controller** : 
+2. **city-import-controller** : 
    Nesse controller está o endpoint de importação de aruivo CSV que é requisito do desafio.
 
 ![img_4.png](img_4.png)
 
-4. **city-info-controller** : 
+3. **city-info-controller** : 
    Nesse controller estão os endpoints de busca que são requisitos do desafio.
 
 ![img_5.png](img_5.png)
